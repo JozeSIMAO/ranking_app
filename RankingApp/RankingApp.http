@@ -1,0 +1,13 @@
+@RankingApp_HostAddress = http://localhost:5215
+
+GET http://localhost:5215/api/ranking
+
+###
+
+POST http://localhost:5215/ranking
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "description": "This is just a test"
+}
